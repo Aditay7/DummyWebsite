@@ -1,0 +1,172 @@
+body {
+  font-family: 'Open Sans', sans-serif; /* Use a modern sans-serif font */
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; /* Light gray background */
+}
+
+header {
+  background-color: #fff; /* White background */
+  padding: 20px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for header */
+}
+
+.container {
+  max-width: 1200px; /* Increase max-width for larger screens */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2.5em; /* Increase font size for better visibility */
+  font-weight: bold; /* Make the logo bold */
+  margin-bottom: 10px; /* Add some space between logo and nav */
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between; /* Space out navigation links */
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  margin-right: 30px; /* Increase margin for better spacing */
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold; /* Make navigation links bold */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+header nav a:hover {
+  color: #00ff40; /* Blue color on hover */
+}
+nav {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav li:last-child a {
+    background-color: #00ff40;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  nav li:last-child a:hover {
+    background-color: #00c735;
+  }
+
+main {
+  padding: 60px 0; /* Increase padding for better spacing */
+}
+
+.hero-section {
+  text-align: center;
+  padding: 40px 0; /* Add some padding to the hero section */
+  background-image: linear-gradient(to bottom, #f7f7f7, #fff); /* Gradient background */
+}
+
+.hero-section h2 {
+  font-size: 3em; /* Increase font size for better visibility */
+  margin-bottom: 20px; /* Add some space between heading and text */
+}
+
+.hero-section button {
+  background-color: #00ff40; /*  button color */
+  border: none;
+  color: white;
+  padding: 20px 40px; /* Increase padding for better spacing */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 60px auto; /* Increase margin for better spacing */
+  cursor: pointer;
+  border-radius: 5px; /* Rounded button corners */
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.hero-section button:hover {
+  background-color: #00c735; /* Darker blue on hover */
+}
+
+.highlight-features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px; /* Increase margin for better spacing */
+  flex-wrap: wrap; /* Allow features to wrap on smaller screens */
+}
+
+.feature-box {
+  text-align: center;
+  padding: 30px; /* Increase padding for better spacing */
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Increase border radius for a more rounded look */
+  margin-bottom: 30px; /* Increase margin for better spacing */
+  width: 30%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for feature boxes */
+}
+
+.feature-box i {
+  font-size: 3em; /* Increase font size for better visibility */
+  color: #007bff; /* Blue icon color */
+  margin-bottom: 20px; /* Add some space between icon and text */
+}
+
+.feature-box h3 {
+  font-size: 1.8em; /* Increase font size for better visibility */
+  font-weight: bold; /* Make the heading bold */
+  margin-bottom: 10px; /* Add some space between heading and text */
+}
+
+.feature-box p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px; /* Add some space between paragraphs */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0; /* Increase padding for better spacing */
+  font-size: 1.2em; /* Increase font size for better visibility */
+}
